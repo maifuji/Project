@@ -1,0 +1,61 @@
+* {
+margin: 0em;
+padding: 0em;
+font-size: 100%;
+border-style: none;
+list-style-type: none;
+}
+body {
+	font-family: "trebuchet MS", calibri,sans-serif;
+	background-color: #f0f0f0;
+}
+
+header img {
+	width: 100%;
+	/*max-width: 504px;*/
+	height: auto;
+}
+nav {
+	margin: 20px;
+	font-size: 120%;
+}
+nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+nav a {text-decoration: none;
+color: #000;}
+nav a:hover{color:#888a12;}
+
+
+#season {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+
+
+figure {text-align: center;
+}
+figure a {
+	text-decoration: none;
+	color: #000;
+}
+figure a:hover {color:#888a12;}
+
+figure img {
+width: 80%;
+height: 80%;
+max-width: 300px;
+}
+footer {margin: 30px;
+color:#676763;}
+footer ul {display: flex;
+justify-content: space-around;}
+footer a {text-decoration: none;
+color: #676763;}
+footer a:hover {text-decoration: underline;}
+
+
+
